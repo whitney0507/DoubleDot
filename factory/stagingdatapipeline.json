@@ -1,0 +1,9 @@
+{
+	"name": "stagingdatapipeline",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4ef3c006-d223-4b8e-9933-faa785bfa34e",
+		"tenantId": "b96a179f-3ccb-4d8a-958b-aa14be817855"
+	}
+}

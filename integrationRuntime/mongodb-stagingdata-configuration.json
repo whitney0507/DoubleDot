@@ -1,0 +1,6 @@
+{
+	"name": "mongodb-stagingdata-configuration",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

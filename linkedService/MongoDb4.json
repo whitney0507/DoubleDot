@@ -1,0 +1,17 @@
+{
+	"name": "MongoDb4",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "MongoDbV2",
+		"typeProperties": {
+			"connectionString": "mongodb://tsuser:@52.221.40.32/ts?retryWrites=true",
+			"database": "ts",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhMmQyNzgwZi1jMjYxLTQ3MDctYTUwYi0yOWEyNGI2Y2M2N2YiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "mongodb-stagingdata-configuration",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
