@@ -1,0 +1,15 @@
+{
+	"name": "AnalVisitor",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Staging Data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MongoDbV2Collection",
+		"schema": [],
+		"typeProperties": {
+			"collection": "scans"
+		}
+	}
+}
