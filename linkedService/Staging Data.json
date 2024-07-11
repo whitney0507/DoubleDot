@@ -1,0 +1,17 @@
+{
+	"name": "Staging Data",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "MongoDbV2",
+		"typeProperties": {
+			"connectionString": "mongodb://liew:@54.254.162.105/mango",
+			"database": "mango",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzZjM0MGQxZi1hMmVkLTQwODctYTc2Zi0yY2VhODUzNzQyNGMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "mongodb-stagingdata-configuration",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
